@@ -35,13 +35,15 @@
         // 3. 第三个问题
 
         console.log(1);
-        document.onclick = function() {
-            console.log('click');
-        }
+        
         console.log(2);
         setTimeout(function() {
             console.log(3)
         }, 3000)
+		
+		document.onclick = function() {
+		    console.log('click');
+		}
     </script>
 </body>
 
